@@ -40,6 +40,7 @@
 **```git rebase -i HEAD~2 :```** Son oluşturulan 2 commit listelenir. Açılan SnapShot penceresinde [insert] tuşuna basılır. Açıklama yönergelerinde yer alan parametreleri [p, r, e, s, f, x, b, d, l, t, m] pick yazan yere yazılır. Örneğin ikinci satıra [r] eklenir [r f30184f 5.commit_rev]
 
 ![Şekil-1](img/1.jpg)
+
 [ESC] tuşuna basılır. [:wa!] ile kayıt yapılır ve [:qa!] ile çıkış yapıldıktan sonra aşağıdaki SnapShot ekranı açılır.
 
 
