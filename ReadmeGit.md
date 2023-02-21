@@ -44,6 +44,7 @@
 
 
 ![Şekil-2](img/2.jpg)
+
 Bu ekranda önce [insert] tuşuna basılır, gerekli commit değişikliği ilk satırda yapılır. Sonra [ESC] tuşuna basılır. [:wa!] ile kayıt yapılır ve [:qa!] ile çıkış yapıldıktan sonra terminale geri dönüş yapılır. ```git log``` komutu ile teyit edilir. ```git push -f``` komutu ile GitHub hesabına gönderilir.
 
 ***Commit içerik değişikliği yapıldıktan sonra SHA kodu değişmektedir. Örneğin 10 adet commit yapılmış bir projede 4.commit’in içeriği değiştirilebilir, sıralaması değişmez fakat SHA kodu değişir.***
