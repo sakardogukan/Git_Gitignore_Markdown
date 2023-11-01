@@ -1,4 +1,6 @@
-# GİT
+# GIT
+GitHub, sürüm kontrol sistemi olarak Git kullanan yazılım geliştirme projeleri için web tabanlı bir depolama servisidir. Projenin her zaman son haline ulaşmamızı ve güncel tutmamızı sağlayan bir araçtır. 8 Şubat 2008 tarihinde Tom Preston-Werner, Chris Wanstrath, P. J. Hyett, Scott Chacon tarafından kuruldu.
+Git ise bir versiyon kontrol sistemidir. 
 
 **Untracked (İzlenmeyen)	:** GIT tarafından takip edilmeyen yani yeni oluşturulmuş dosyaları ifade eder.
 **Unstaged (Hazırlanmamış)	:** Güncellenmiş fakat commitlenmek için hazırlanmamış dosyaları ifade eder.
@@ -43,10 +45,9 @@
 
 [ESC] tuşuna basılır. [:wa!] ile kayıt yapılır ve [:qa!] ile çıkış yapıldıktan sonra aşağıdaki SnapShot ekranı açılır.
 
-
 ![Şekil-2](img/2.jpg)
 
-Bu ekranda önce [insert] tuşuna basılır, gerekli commit değişikliği ilk satırda yapılır. Sonra [ESC] tuşuna basılır. [:wa!] ile kayıt yapılır ve [:qa!] ile çıkış yapıldıktan sonra terminale geri dönüş yapılır. ```git log``` komutu ile teyit edilir. ```git push -f``` komutu ile GitHub hesabına gönderilir.
+Bu ekranda önce [insert] tuşuna basılır, gerekli commit değişikliği ilk satırda yapılır. İlk önce [insert] sonra [ESC] tuşuna basılır. [:wa!] ile kayıt yapılır ve [:qa!] ile çıkış yapıldıktan sonra terminale geri dönüş yapılır. Main branch’ına geri gelmesi beklenir. ```git log``` komutu ile teyit edilir. ```git push -f``` komutu ile GitHub hesabına gönderilir.
 
 ***Commit içerik değişikliği yapıldıktan sonra SHA kodu değişmektedir. Örneğin 10 adet commit yapılmış bir projede 4.commit’in içeriği değiştirilebilir, sıralaması değişmez fakat SHA kodu değişir.***
 
